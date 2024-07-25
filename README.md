@@ -9,3 +9,6 @@ This gif (not representative of the final javascript product) was drawn using [P
 ![FourierGif](./fouriertmetzler.gif)
 
 
+## See for yourself !
+
+simply click on [Play](https://kitao.github.io/pyxel/wasm/launcher/?run=tmetzler.WebsiteTitleScreen.WebsiteTitleScreen)
