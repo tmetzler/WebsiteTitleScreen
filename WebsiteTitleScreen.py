@@ -1,15 +1,6 @@
 
 #It took me 8 hours to make this...
 
-
-import micropip
-micropip.install('numpy')
-micropip.install('math')
-micropip.install('cmath')
-micropip.install('os')
-micropip.install('xml.dom')
-micropip.install('svg.path')
-
 import pyxel
 import numpy as np
 import os
@@ -17,7 +8,6 @@ import math
 import cmath
 from xml.dom import minidom
 from svg.path import parse_path
-
 
 numvector = 200
 svg_file = r'Tests\WebsiteTitleScreen\tmetzler.svg'
