@@ -9,9 +9,9 @@ import cmath
 from xml.dom import minidom
 from svg.path import parse_path
 
-numvector = 150
+numvector = 200
 svg_file = r'Tests\WebsiteTitleScreen\tmetzler.svg'
-spinrate = 0.0001 # rate of spin
+spinrate = 0.0003 # rate of spin
 scale = 30 #scale of drawing from 0, 0
 num_points = 1000  # Number of samples of the svg path
 
