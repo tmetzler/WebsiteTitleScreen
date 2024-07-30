@@ -10,7 +10,7 @@ from xml.dom import minidom
 from svg.path import parse_path
 
 numvector = 200
-svg_file = r'pikachu.svg'
+svg_file = r'tmetzler.svg'
 spinrate = 0.0003 # rate of spin
 scale = 30 #scale of drawing from 0, 0
 num_points = 1000  # Number of samples of the svg path
