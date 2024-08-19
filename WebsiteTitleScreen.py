@@ -10,7 +10,7 @@ from xml.dom import minidom
 from svg.path import parse_path
 
 numvector = 200
-svg_file = r'Tests\WebsiteTitleScreen\tmetzler.svg'
+svg_file = r'tmetzler.svg'
 spinrate = 0.0003 # rate of spin
 scale = 30 #scale of drawing from 0, 0
 num_points = 1000  # Number of samples of the svg path
@@ -34,8 +34,8 @@ def precompute_f(svg_file_path, num_points):
                 continue  # Skip any problematic points
 
     return all_coordinates
+full_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), svg_file)
 
-full_path = os.path.join(os.getcwd(), svg_file)
 print(f"Attempting to open file: {full_path}")
 
 # Precompute all f values

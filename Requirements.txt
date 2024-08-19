@@ -1,8 +1,4 @@
-Python
-Pyxel
-Numpy
-Os
-Math
-Cmath
-Xml.dom
-Svg.path
+pyxel
+numpy
+svglib
+svg.path
